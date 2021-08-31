@@ -14,7 +14,7 @@ export const chatCardStyles = StyleSheet.create<ChatCardStylesTypes>({
   chatCard: {
     height: 52,
     flexDirection: 'row',
-    marginTop: 12,
+    marginTop: 18,
   },
   chatLogo: {
     width: 52,
@@ -33,25 +33,27 @@ export const chatCardStyles = StyleSheet.create<ChatCardStylesTypes>({
   },
   chatTitle: {
     fontFamily: 'Roboto',
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: 'bold',
     lineHeight: 18,
     color: '#000',
     marginTop: 5.5,
   },
   chatLastMessageTime: {
-    fontSize: 11.5,
+    fontSize: 12.5,
     textAlign: 'right',
     fontFamily: 'Roboto',
+    color: '#757575',
     fontWeight: '400',
     lineHeight: 13,
     marginRight: 18,
   },
   chatLastMessage: {
-    fontSize: 13.04,
+    fontSize: 14,
     color: '#757575',
     fontWeight: '400',
     lineHeight: 15,
     fontFamily: 'Roboto',
+    marginTop: 2,
   },
 });
