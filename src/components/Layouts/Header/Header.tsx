@@ -24,8 +24,8 @@ export const Header = () => {
           <View style={headerStyles.camera}>
             <CameraIcon height={18} width={21.5} />
           </View>
-          <View style={headerStyles.navOptions}>
-            <Text style={headerStyles.textNavOptions}>CHATS</Text>
+          <View style={headerStyles.navOptionsFocus}>
+            <Text style={headerStyles.textNavOptionsFocus}>CHATS</Text>
           </View>
           <View style={headerStyles.navOptions}>
             <Text style={headerStyles.textNavOptions}>STATUS</Text>

@@ -11,6 +11,8 @@ type HeaderStylesTypes = {
   camera: ViewStyle;
   navOptions: ViewStyle;
   textNavOptions: TextStyle;
+  navOptionsFocus: ViewStyle;
+  textNavOptionsFocus: TextStyle;
 };
 
 export const headerStyles = StyleSheet.create<HeaderStylesTypes>({
@@ -46,19 +48,32 @@ export const headerStyles = StyleSheet.create<HeaderStylesTypes>({
   },
   headerRow2: {
     marginTop: 20,
+    flex: 1,
     flexDirection: 'row',
   },
   camera: {
-    justifyContent: 'center',
     alignItems: 'center',
-    flex: 2,
+    flex: 4,
+    marginTop: 3,
   },
   navOptions: {
-    flex: 5,
+    flex: 9,
     alignItems: 'center',
   },
   textNavOptions: {
     color: '#83AFAA',
+    fontWeight: 'bold',
+    fontSize: 15,
+  },
+  navOptionsFocus: {
+    flex: 9,
+    alignItems: 'center',
+    borderBottomWidth: 3,
+    height: '100%',
+    borderBottomColor: '#fff',
+  },
+  textNavOptionsFocus: {
+    color: '#fff',
     fontWeight: 'bold',
     fontSize: 15,
   },
