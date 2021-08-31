@@ -2,15 +2,9 @@ import React from 'react';
 import {Image} from 'react-native';
 import {Text, View} from 'react-native';
 import {chatCardStyles} from './chatCardStyles';
+import {ChatCardData} from '../types';
 
-type ChatCardProps = {
-  chatImageUrl: string;
-  chatTitle: string;
-  chatLastMessageTime: string;
-  chatLastMessage: string;
-};
-
-export const ChatCard: React.FC<ChatCardProps> = ({
+export const ChatCard: React.FC<ChatCardData> = ({
   chatImageUrl,
   chatTitle,
   chatLastMessageTime,

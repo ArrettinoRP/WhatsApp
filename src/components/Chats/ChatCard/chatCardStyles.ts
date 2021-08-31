@@ -12,7 +12,6 @@ type ChatCardStylesTypes = {
 
 export const chatCardStyles = StyleSheet.create<ChatCardStylesTypes>({
   chatCard: {
-    backgroundColor: 'white',
     height: 52,
     flexDirection: 'row',
     marginTop: 12,
